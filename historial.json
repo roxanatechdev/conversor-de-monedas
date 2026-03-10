@@ -1,0 +1,107 @@
+[
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "ARS",
+    "montoOriginal": 25.0,
+    "montoConvertido": 36306.25,
+    "fecha": "2026-03-10 18:00:58"
+  },
+  {
+    "monedaOrigen": "BRL",
+    "monedaDestino": "USD",
+    "montoOriginal": 250.0,
+    "montoConvertido": 47.825,
+    "fecha": "2026-03-10 18:01:04"
+  },
+  {
+    "monedaOrigen": "ARS",
+    "monedaDestino": "USD",
+    "montoOriginal": 896.0,
+    "montoConvertido": 0.61697664,
+    "fecha": "2026-03-10 18:01:10"
+  },
+  {
+    "monedaOrigen": "EUR",
+    "monedaDestino": "USD",
+    "montoOriginal": 458.0,
+    "montoConvertido": 530.5014,
+    "fecha": "2026-03-10 18:01:16"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "ARS",
+    "montoOriginal": 25.0,
+    "montoConvertido": 36306.25,
+    "fecha": "2026-03-10 18:08:36"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "COP",
+    "montoOriginal": 789.0,
+    "montoConvertido": 2980779.2745,
+    "fecha": "2026-03-10 18:08:55"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "EUR",
+    "montoOriginal": 458.0,
+    "montoConvertido": 395.3914,
+    "fecha": "2026-03-10 18:09:12"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "ARS",
+    "montoOriginal": 25.0,
+    "montoConvertido": 36306.25,
+    "fecha": "2026-03-10 18:10:16"
+  },
+  {
+    "monedaOrigen": "ARS",
+    "monedaDestino": "USD",
+    "montoOriginal": 789.0,
+    "montoConvertido": 0.54329751,
+    "fecha": "2026-03-10 18:10:46"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "EUR",
+    "montoOriginal": 78.0,
+    "montoConvertido": 67.3374,
+    "fecha": "2026-03-10 18:11:10"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "ARS",
+    "montoOriginal": 25.0,
+    "montoConvertido": 36306.25,
+    "fecha": "2026-03-10 18:24:38"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "EUR",
+    "montoOriginal": 45.0,
+    "montoConvertido": 38.8485,
+    "fecha": "2026-03-10 18:24:53"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "COP",
+    "montoOriginal": 86.0,
+    "montoConvertido": 324901.163,
+    "fecha": "2026-03-10 18:25:04"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "ARS",
+    "montoOriginal": 25.0,
+    "montoConvertido": 36306.25,
+    "fecha": "2026-03-10 18:32:42"
+  },
+  {
+    "monedaOrigen": "USD",
+    "monedaDestino": "COP",
+    "montoOriginal": 785.0,
+    "montoConvertido": 2965667.5925,
+    "fecha": "2026-03-10 18:33:30"
+  }
+]
