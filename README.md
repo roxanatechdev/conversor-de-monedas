@@ -1,52 +1,58 @@
-# Conversor de Monedas
+# 💱 Conversor de Monedas en Tiempo Real
 
-¡Bienvenido al Conversor de Monedas! Este programa permite convertir diferentes monedas utilizando la API de tasas de cambio en tiempo real. Ahora también incluye un historial de conversiones realizadas para que puedas llevar un seguimiento de todas tus transacciones.
+![Java](https://img.shields.io/badge/Java-17%2B-orange)
+![Gson](https://img.shields.io/badge/Gson-2.13.2-green)
+![API](https://img.shields.io/badge/API-ExchangeRate--API-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Características
+Aplicación de consola desarrollada en Java que permite realizar conversiones de moneda en tiempo real utilizando la API de ExchangeRate. El programa mantiene un historial persistente de todas las conversiones realizadas.
 
-- **Conversión de Monedas**: Convierte entre varias monedas, incluyendo Dólar (USD), Peso Argentino (ARS), Real Brasileño (BRL) y Peso Colombiano (COP).
-- **Historial de Conversiones**: Mantiene un registro de todas las conversiones realizadas, almacenadas en un archivo JSON (`historial.json`).
-- **Interfaz de Usuario Interactiva**: Interactúa fácilmente con el programa a través de un menú de opciones.
-- **Soporte extendido para monedas**: Capacidad para aumentar la cantidad de monedas disponibles para elegir.
+## 🚀 Características Principales
 
-## Tecnologías Utilizadas
+- **Conversión en Tiempo Real**: Tasas de cambio actualizadas mediante API externa
+- **Múltiples Monedas Soportadas**: USD, ARS, BRL, COP, EUR (fácilmente ampliable)
+- **Historial Persistente**: Registro automático de todas las conversiones en formato JSON
+- **Interfaz Amigable**: Menú interactivo con diseño elegante en consola
+- **Manejo de Errores**: Validación de entradas y gestión de excepciones
+- **Formato de Fechas**: Registro timestamp de cada conversión
 
-- **Java**: Lenguaje de programación principal.
-- **API de ExchangeRate**: Para obtener las tasas de cambio en tiempo real.
-- **Gson**: Para la manipulación y el parsing de datos JSON.
+## 📸 Capturas de Pantalla
+### Menú Principal
+*Interfaz principal con todas las opciones de conversión*
 
-## Cómo Usar
+<img src="screenshots/menu.png" alt="Menú Principal" width="400">
 
-1. **Ejecuta el programa**: Al iniciar, se presentará un menú con opciones de conversión.
-2. **Selecciona una opción**: Ingresa el número correspondiente a la conversión que deseas realizar.
-3. **Ingresa el valor a convertir**: Proporciona el monto que quieres convertir.
-4. **Consulta el historial**: Las conversiones realizadas se guardarán en el archivo `historial.json`, que podrás revisar en cualquier momento.
+### Proceso de Conversión
+*Ejemplo de conversión de USD a ARS con resultado exitoso*
 
-## Implementación del Historial
+<img src="screenshots/conversion1.png" alt="Ejemplo de conversión" width="500">
 
-La función `guardarHistorial` se encarga de guardar cada conversión realizada en un archivo JSON. Utiliza `FileWriter` para crear o actualizar el archivo `historial.json`, y `Gson` para serializar el historial de conversiones en formato JSON.
+### Historial de Conversiones
+*Visualización del historial con formato de tabla*
 
-### Ejemplo de Código
+<img src="screenshots/historial.png" alt="Historial con formato de tabla" width="400">
 
-```java
-public void guardarHistorial(String monedaOrigen, String monedaDestino, double monto, double resultado) {
-    // Crea un objeto de conversión con los detalles
-    Conversion conversion = new Conversion(monedaOrigen, monedaDestino, monto, resultado);
-    
-    // Carga el historial existente
-    List<Conversion> historial = cargarHistorial();
-    
-    // Agrega la nueva conversión al historial
-    historial.add(conversion);
-    
-    // Guarda el historial actualizado en el archivo JSON
-    try (Writer writer = new FileWriter("historial.json")) {
-        gson.toJson(historial, writer);
-    } catch (IOException e) {
-        e.printStackTrace();
-    }
-}
+## 🛠 Tecnologías Utilizadas
 
-## Ejemplo de Uso
-![Interfaz del Conversor de Monedas](https://user-images.githubusercontent.com/screenshots/Captura.png) 
+- **Java 17+**: Lenguaje principal de programación
+- **Gson 2.13.2**: Biblioteca para serialización/deserialización JSON
+- **ExchangeRate-API**: API externa para obtener tasas de cambio actualizadas
+- **java.time**: Manejo de fechas y horas (Java 8+)
 
+## ⚙️ Instalación y Configuración
+
+### Prerrequisitos
+- JDK 17 o superior
+- Maven (opcional, para gestión de dependencias)
+- Conexión a Internet (para la API de tasas de cambio)
+
+### Pasos de Instalación
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/tuusuario/conversor-monedas.git
+   cd conversor-monedas
+
+
+## 📄 Licencia
+Distribuido bajo la licencia MIT.
