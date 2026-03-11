@@ -50,7 +50,7 @@ Aplicación de consola desarrollada en Java que permite realizar conversiones de
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/tuusuario/conversor-monedas.git
+   git clone https://github.com/roxanatechdev/conversor-de-monedas
    cd conversor-monedas
 
 
